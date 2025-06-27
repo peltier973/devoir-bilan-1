@@ -114,3 +114,120 @@ header {
     align-items: center;
     gap: 5px;
 }
+/* Contenu principal  */
+.content {
+    display: flex;
+}
+
+aside {
+    background-color: #e6f7ff;
+    padding: 20px;
+    width: 30%;
+}
+
+aside h3 {
+    border-bottom: 2px solid #0099cc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 5px;
+}
+
+main {
+    padding: 20px;
+    width: 70%;
+}
+
+main h3 {
+    border-bottom: 2px solid #0099cc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding-left: 10px;
+    position: relative;
+}
+
+ul li::before {
+    content: "▪";
+    color: teal;
+    position: absolute;
+    left: 0;
+}
+
+/* Section des Profils */
+.profil {
+    margin-bottom: 20px;
+}
+
+.profil h3 {
+    font-size: 20px;
+    color: #0097A7;
+    border-bottom: 2px solid #0097A7;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.profil p {
+    font-weight: normal;
+}
+
+.formations, .stages, .experience-pro {
+    margin-bottom: 20px;
+}
+
+/* Titres des sections */
+.formations h3, .competences h3, .stages h3, .experience-pro h3, .qualites h3, .interets h3, .langues h3 {
+    font-size: 20px;
+    color: #0097A7;
+    border-bottom: 1px solid #797c7c;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Style des blocs */
+.formation, .stage, .metiers {
+    margin-bottom: 10px;
+}
+
+/* Style des paragraphes des blocs */
+.formation p, .stage p, .metiers p, .qualites h3, .interets h3, .langues h3 {
+    margin: 2px 0;
+}
+
+.formation strong, .stage strong, .metiers strong {
+    font-size: 16px;
+    color: #333;
+}
+
+.date {
+    font-weight: normal;
+    float: right;
+    color: #0097A7;
+}
+
+.formation em, .stage em, .metiers em {
+    font-style: italic;
+    color: #666;
+}
+
+footer {
+    background-color: #0099cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
